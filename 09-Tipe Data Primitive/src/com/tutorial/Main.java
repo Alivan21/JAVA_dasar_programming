@@ -2,13 +2,12 @@ package com.tutorial;
 
 public class Main {
 
-    public static void main(String[] args){
-
+    public static void main(String[] args) {
         // tipe data di java:
         // integer, byte, short, long, double, float, char, boolean
 
         // integer (satuan)
-        int i = 10;
+        int i = 2147483647;
         System.out.println("======INTEGER======");
         System.out.println("nilai integer i = " + (i + 1));
         System.out.println("Nilai max = " + Integer.MAX_VALUE);
@@ -44,7 +43,7 @@ public class Main {
         System.out.println("Besar long = " + Long.SIZE + " bit");
 
         // double (koma, bilangan real)
-        double d = -10.5d;
+        double d = -10.5;
         System.out.println("======DOUBLE======");
         System.out.println("nilai double d = " + d);
         System.out.println("Nilai max = " + Double.MAX_VALUE);
@@ -76,8 +75,5 @@ public class Main {
         System.out.println("nilai boolean val = " + val);
         System.out.println("Nilai max = " + Boolean.TRUE);
         System.out.println("Nilai min = " + Boolean.FALSE);
-
-
-
     }
 }

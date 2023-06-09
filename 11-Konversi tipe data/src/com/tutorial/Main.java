@@ -6,7 +6,7 @@ public class Main {
 
         // program untuk konversi data
 
-        int nilaiInt = 450; //32-bit
+        int nilaiInt = 450; // 32-bit
         System.out.println("nilai int = " + nilaiInt);
 
         // Memperluas rentang ke tipe data yang lebih besar
@@ -23,15 +23,14 @@ public class Main {
         int a = 10;
         float b = 4;
 
-        float c = a/b;
+        float c = a / b;
 
-        System.out.printf("%d / %f = %f\n",a,b,c);
+        System.out.printf("%d / %.2f = %.2f\n", a, b, c);
 
         int x = 10;
         int y = 4;
 
-        float z = (float)x / y;
-        System.out.printf("%d / %d = %f \n",x,y,z);
-
+        float z = (float) x / y;
+        System.out.printf("%d / %d = %f \n", x, y, z);
     }
 }
